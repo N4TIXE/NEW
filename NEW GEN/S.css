@@ -1,0 +1,122 @@
+.LOL{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    list-style: none;
+}
+.HM1{
+        height: 1270px;
+        width: auto;
+        font-size: xx-large;
+        font-family: monospace;
+        color: rgb(255, 255, 255);
+         background-image: url(https://wallpapers.com/images/featured/plain-black-background-02fh7564l8qq4m6d.jpg);
+    }
+
+nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    cursor:  pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform:  scale(1.1);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    position:  relative;
+    padding:  5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: rgb(65, 79, 107);
+}
+nav ul li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position:  absolute;
+    height: 3px;
+    background-color: black;
+    transition: 0.3 ease;
+}
+nav ul li a:hover::after{
+ width: 100%;
+}
+.detail{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.detail h1{
+    color: rgb(165, 245, 155);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.detail h1 span{
+    color: rgb(247, 185, 241);
+}
+.detail p{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.image img{
+    display: block;
+    width: 82%;
+    height: auto;
+}
+.image{
+    width: 40%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 170px;
+}
+.socials{
+    position:  fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(167, 86, 160);
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    font-size: 28px;
+    color: white;
+    padding: 10;
+}
+.socials i{
+    padding: 2px;
+    transition: 0.3s ease;
+}
+.socials i:hove{
+    color: rgb(15,15,239);
+    background-color: white;
+    border-radius: 50%;
+}
+.DDA{
+    color: rgb(165, 245, 155);
+}
+.btn{
+    color: aliceblue;
+}

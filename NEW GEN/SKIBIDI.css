@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/600/825/desktop-wallpaper-leaves-dark-branch.jpg);
+}
+
+.RR1 h1{
+    color: rgb(160, 233, 255);
+}
+.RR1 h2{
+    color: red;
+}
+
+
+.RAA h2{
+    color:  rgb(248, 252, 194);
+}
+.RAA h4,ol{
+    color: aliceblue;
+}
+.RAA table,tr,th,td{
+    border: 1px solid white;
+    color: aliceblue;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 40px;
+}
+.TTR{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(15,15,239);
+    cursor:  pointer;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    transform:  scale(1.1);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(255, 249, 249);
+    position:  relative;
+    padding:  5px 0;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: rgb(65, 79, 107);
+}
+nav ul li a::after{
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position:  absolute;
+    height: 3px;
+    background-color: black;
+    transition: 0.3 ease;
+}
+nav ul li a:hover::after{
+ width: 100%;
+}
+.btn{
+    color: aliceblue;
+}
